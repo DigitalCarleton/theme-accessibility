@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3 {
   font-weight: normal;
   font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
-  color: #015581; }
+  color: #000000; } /*blue to balack */
 
 h1 {
   font-size: 30px;
@@ -469,10 +469,10 @@ th {
 
 /* -- Links -- */
 a:link, a:visited {
-  color: #369; }
+  color: #000; } /* change from blue to black */
 
 a:hover, a:active {
-  color: #ff8000; }
+  color: #000000; } /* changed to black */
 
 img a {
   border: none; }
@@ -534,7 +534,7 @@ header {
   width: 50%;
   font-weight: normal;
   font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
-  color: #015581;
+  color: #000000; /*change the color to black*/
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
@@ -993,7 +993,7 @@ nav + .exhibit {
 .featured,
 #featured-exhibit {
   overflow: hidden;
-  background: #eee;
+ /* background: #eee;     remove the background*/
   padding: 18px 20px;
   margin-bottom: 18px; }
   .featured h2,
