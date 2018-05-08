@@ -360,7 +360,7 @@ th {
   box-sizing: border-box; }
 
 body {
-  font: 12px Verdana, Times New Roman, sans-serif; /*Helvetica, Arial to Verdana and Times New Roman*/
+  font: 12px Verdana, Arial, sans-serif; /*Helvetica to Verdana */
   line-height: 18px;
   color: #333;
   background: #fff; }
