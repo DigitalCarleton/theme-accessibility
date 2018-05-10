@@ -551,7 +551,8 @@ header {
   float: right;
   width: 45%;
   position: relative;
-  font-size: 14.0004px; }
+    font-size: 14.0004px;}
+
   #search-container h2 {
     display: none; }
   #search-container input[type=text], #search-container button {
@@ -744,7 +745,8 @@ header {
     position: relative;
     display: inline-block;
     margin: 0;
-    border-left: 1px solid #ccc;
+    /*border-left: 1px solid #ccc; */
+    /*Changed to none */
     border-top: 1px solid #ccc;
     height: 100%;
     width: 100%; }
@@ -815,7 +817,7 @@ header {
   #primary-nav a:hover,
   #primary-nav a:focus,
   #primary-nav li.active > a {
-    color: #ff8000;
+    color: #00a9ff; /*to blue shade */
     position: relative;
     z-index: 1; }
   #primary-nav [aria-haspopup="true"]:after {
@@ -883,7 +885,7 @@ header {
 /* @group ----- Global selectors ----- */
 #content {
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: none; /*removed the border line*/
   background: #fff;
   position: relative;
   margin: 0 auto;
