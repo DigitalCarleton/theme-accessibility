@@ -811,7 +811,7 @@ header {
     text-decoration: none;
     display: block;
     padding: 9px 18px;
-    background: #fafafa; }
+    background: #404040; } /* matched the color to that of the top menu bar */
   #primary-nav a:hover,
   #primary-nav a:focus,
   #primary-nav li.active > a {
