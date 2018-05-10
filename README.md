@@ -41,6 +41,10 @@ Note: - The “ticks” and “tails” of serif fonts take up a larger amount o
 fonts display better on computers and mobile devices and are more readable.  
 •	In style.css, look for all the fonts 
 •	Change the font family to sans-serif from serif if present
-•	Change the font to Verdana if it is Helvetica or Times New Roman
+•	Change the font to Oswald if it is Helvetica or Times New Roman
+2. Replacing the search container from header to the nav section
+i. Open header.php 
+ii. Look for the id "search container" and place the whole div section beneath the nv id section. 
+ 
 
 

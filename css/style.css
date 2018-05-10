@@ -531,14 +531,14 @@ header {
 
 #site-title {
   float: left;
-  width: 50%;
+  width: 100%; /*Changed from 50% */
   font-weight: normal;
-  font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
+  font-family: Oswald, Arial, Helvetica, sans-serif; /*Changed from Gil Sans MT */
   color: #000000; /*change the color to black*/
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: .01em; /*changed from .2em */
   position: relative; }
   #site-title img {
     max-width: 100%;
