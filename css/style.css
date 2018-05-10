@@ -469,10 +469,10 @@ th {
 
 /* -- Links -- */
 a:link, a:visited {
-  color: #000; } /* change from blue to black */
+  color: #ccc; } /* changed to match the color of the admin menu color */
 
 a:hover, a:active {
-  color: #000000; } /* changed to black */
+  color: #000000; } /* change from blue to black */
 
 img a {
   border: none; }
