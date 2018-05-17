@@ -545,7 +545,8 @@ header {
     height: auto; }
 
 #site-title a {
-  text-decoration: none; }
+  text-decoration: none; 
+ color: #2F353E; /* added the site title color*/}
 
 #search-container {
   float: right;
