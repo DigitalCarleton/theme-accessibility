@@ -424,7 +424,7 @@ h6 {
   color: #666; }
 
 h1 a, h2 a, h3 a {
-  text-decoration: none; 
+  text-decoration: underline; /*added underline from none*/
   color: #2F353E;}
 
 /* -- Misc Block elements -- */
@@ -869,12 +869,12 @@ header {
     margin-left: 0; }
   .pagination li {
     height: 36px;
-    border: solid #e7e7e7;
-    border-width: 1px 0 1px 1px;
+    /*border: solid #e7e7e7; */
+    /*border-width: 1px 0 1px 1px;*/ /*no border */ 
     float: left;
     list-style-type: none; }
-    .pagination li:last-of-type {
-      border-right: 1px solid #e7e7e7; }
+   /* .pagination li:last-of-type {
+      border-right: 1px solid #e7e7e7; } */ /* no right border */
   .pagination a, .pagination form {
     text-decoration: none;
     padding: 0 10px;
