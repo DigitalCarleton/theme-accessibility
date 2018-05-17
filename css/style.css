@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3 {
   font-weight: normal;
-  font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
+  font-family: Oswald, Arial, Helvetica, sans-serif; /*changed to Gill */
   color: #000000; } /*blue to black */
 
 h1 {
