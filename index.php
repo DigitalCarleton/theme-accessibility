@@ -1,15 +1,6 @@
 
 
 <?php echo head(array('bodyid'=>'home', 'bodyclass' =>'two-col')); ?>
-<div id = "header">
-    <?php
-    $h1Text = get_theme_option('H1 Text');
-    if ($h1Text == null):
-        $h1Text = 'Header Text';
-    endif;
-    ?>
-    <h1><?php echo $h1Text; ?></h1>
-</div>
 <div id="primary">
     <?php if ($homepageText = get_theme_option('Homepage Text')): ?>
     <p><?php echo $homepageText; ?></p>

@@ -558,7 +558,7 @@ header {
   width: 45%;
   position: relative;
     font-size: 14.0004px;
-  margin-top: 30px;} /*added the margin */
+  margin-top: 20px;} /*added the margin */
   #search-container h2 {
     display: none; }
   #search-container input[type=text], #search-container button {

@@ -53,7 +53,18 @@
                 <?php else: ?>
                 <?php echo search_form(); ?>
                 <?php endif; ?>
-            </div>   
+            </div>
+             
+             <!-- added a header text -->
+            <div id = "header">
+            <?php
+            $h1Text = get_theme_option('H1 Text');
+            if ($h1Text == null):
+                $h1Text = 'Header Text';
+            endif;
+            ?>
+            <h1><?php echo $h1Text; ?></h1>
+            </div>
              
          </div>
 
