@@ -1,0 +1,37 @@
+This is the documentation that elaborates furthur to the accesibility features built in the white paper under the ----- section . 
+Please note that the comments in the files are especially meant to support developers to  customize the Berlin theme to achieve the accessibility feature improvements mentioned in the white paper. 
+
+Here, we will show you how to tweak codes in different files to achieve the features. 
+
+1. Header text for heading level 1 in public page.
+Note: you can aso look for specific codes under the comments "Added for header text" in the files.
+
+i. To add the Header text input field in theme configuration. 
+
+Go to config.ini file:
+
+i. Add the following codes under [config] section. 
+header_text.type = "textarea"
+header_text.options.label = "Header Text"
+header_text.options.description = "Add some text to be displayed in your theme's header."
+header_text.options.rows = "1"
+header_text.options.attribs.class = "html-input"
+
+ii. Add the following codes under [groups] section
+head_foot.elements[] = "header_text"
+
+
+ii. To add the header text in the public page
+
+Go to header.php file:
+
+Add the following code:
+        <div id = "header">
+        <?php
+            $h1Text = get_theme_option('Header Text');
+            if ($h1Text == null):
+                $h1Text = 'Header Text';
+            endif;
+            ?>
+            <h1><?php echo $h1Text; ?></h1>
+        </div>
