@@ -55,16 +55,6 @@
                 <?php endif; ?>
             </div>
              
-             <!-- added a header text -->
-            <div id = "header">
-            <?php
-            $h1Text = get_theme_option('Header Text');
-            if ($h1Text == null):
-                $h1Text = 'Header Text';
-            endif;
-            ?>
-            <h1><?php echo $h1Text; ?></h1>
-            </div>
              
          </div>
 

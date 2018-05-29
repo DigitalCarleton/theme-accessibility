@@ -26,6 +26,7 @@ ii. To add the header text in the public page
 Go to header.php file:
 
 Add the following code:
+```
         <div id = "header">
         <?php
             $h1Text = get_theme_option('Header Text');
@@ -35,3 +36,7 @@ Add the following code:
             ?>
             <h1><?php echo $h1Text; ?></h1>
         </div>
+```
+
+
+

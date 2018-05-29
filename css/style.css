@@ -1544,7 +1544,7 @@ footer {
     #exhibit-pages {
       width: 172px; } }
   #exhibit-pages h4 {
-    font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
+    font-family: Oswald, Arial, Helvetica, sans-serif; /*Changed from Gil Sans MT */
     font-weight: normal;
     text-transform: uppercase; }
   #exhibit-pages a {
