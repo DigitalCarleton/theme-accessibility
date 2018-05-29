@@ -532,7 +532,7 @@ header {
 
 #site-title {
   float: left;
-  width: 100%; /*Changed from 50% */
+  width: 50%;
   font-weight: normal;
   font-family: Oswald, Arial, Helvetica, sans-serif; /*Changed from Gil Sans MT */
   color: #000000; /*change the color to black*/
@@ -557,8 +557,7 @@ header {
   float: right;
   width: 45%;
   position: relative;
-    font-size: 14.0004px;
-  margin-top: 20px;} /*added the margin */
+    font-size: 14.0004px;} 
   #search-container h2 {
     display: none; }
   #search-container input[type=text], #search-container button {
