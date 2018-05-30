@@ -68,7 +68,12 @@ consistent format, high contrast and flat design.
 2.1. Remove all the border lines
 This makes the page less cluttered and gives the page a flat desing look that is visually pleasing. 
 
-i. 
+i.  remove the border on the content section in style.css file 
+ii. check for other borders lines in other files and remove them. 
+
+2.2. Change the fonts of the header levels to Oswald. 
+
+2.3 
 
 
 
