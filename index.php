@@ -1,7 +1,7 @@
 
 
 <?php echo head(array('bodyid'=>'home', 'bodyclass' =>'two-col')); ?>
-<!-- added a header text -->
+<!-- added for header text -->
             <div id = "header">
             <?php
             $h1Text = get_theme_option('Header Text');
