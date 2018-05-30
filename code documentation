@@ -1,24 +1,45 @@
-This is the documentation that elaborates furthur to the accesibility features built in the white paper under the ----- section . 
-Please note that the comments in the files are especially meant to support developers to  customize the Berlin theme to achieve the accessibility feature improvements mentioned in the white paper. 
 
-Here, we will show you how to tweak codes in different files to achieve the features. 
 
-1. Header text for heading level 1 in public page.
-Note: you can aso look for specific codes under the comments "Added for header text" in the files.
 
-i. To add the Header text input field in theme configuration. 
+Assume as a standalone :- 
+
+Eq:- We made 3 changes , needs modification in 
+First problem:- there is no h1 level 
+Idea.php - homepage 
+Default value - it will be nice to change the value for people 
+So you need config, ini and how you do these
+What section fo codes whose the codes be entered
+
+Although Omeka has incorporated some of the accessibility features like ARIA Landmarks, skip to the content, 
+it still needs significant improvements. Here, we identified three features where the theme needed modifications and 
+made changes accordingly. 
+
+1. Header text for heading level 1 in homepage.
+Lack of a unique h1 makes the website less intuitive and more complex to navigate for screen readers. 
+Hence, it is very important to add it. It would also be nice for users to change the h1 header text, 
+however it should also have a default text in case the users do no input one.
+
+Note:- all codes added for the header text are commeted with #added for header text in the relevant files. 
+
+1.1. To add the Header text input field in theme configuration. 
 
 Go to config.ini file:
 
-i. Add the following codes under [config] section. 
+i. Add the following codes under [config] section. This builds the text form for the header text. 
+
+```
 header_text.type = "textarea"
 header_text.options.label = "Header Text"
 header_text.options.description = "Add some text to be displayed in your theme's header."
 header_text.options.rows = "1"
 header_text.options.attribs.class = "html-input"
+```
 
-ii. Add the following codes under [groups] section
+ii. Add the following codes under [groups] section, but right before the homepage text. This displays
+the text form for the header text on the theme configuration. 
+```
 head_foot.elements[] = "header_text"
+```
 
 
 ii. To add the header text in the public page
@@ -26,12 +47,29 @@ ii. To add the header text in the public page
 Go to header.php file:
 
 Add the following code:
-        <div id = "header">
-        <?php
+```
+ <div id = "header">
+            <?php
             $h1Text = get_theme_option('Header Text');
             if ($h1Text == null):
                 $h1Text = 'Header Text';
             endif;
             ?>
             <h1><?php echo $h1Text; ?></h1>
-        </div>
+            </div>
+```
+($h1Text == null) checks if the user has input the header text, other wise the default value Header Text is displayed on the 
+homepage.
+
+2. Simple Design
+Simple Design lets the users process the important information quickly without being burdened by distractions. It includes
+consistent format, high contrast and flat design. 
+
+2.1. Remove all the border lines
+This makes the page less cluttered and gives the page a flat desing look that is visually pleasing. 
+
+i. 
+
+
+
+
