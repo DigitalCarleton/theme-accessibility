@@ -763,7 +763,7 @@ header {
     margin: 0 -1px 0 0;
     border-bottom: 0; }
   #primary-nav .nav-item > a.open {
-    background-color: #fafafa;
+    background-color: #369; /* changed to dark blue */
     z-index: 1; }
     #primary-nav .nav-item > a.open:before {
       content: "";
@@ -823,7 +823,7 @@ header {
   #primary-nav a:hover,
   #primary-nav a:focus,
   #primary-nav li.active > a {
-    background-color: #0000ff; /*to blue shade */
+    background-color: #369; /*to blue shade */
     position: relative;
     z-index: 1; }
   #primary-nav [aria-haspopup="true"]:after {
