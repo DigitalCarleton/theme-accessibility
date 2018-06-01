@@ -762,6 +762,7 @@ header {
     border-right: 0;
     margin: 0 -1px 0 0;
     border-bottom: 0; }
+
   #primary-nav .nav-item > a.open {
     background-color: #369; /* changed to dark blue */
     z-index: 1; }
@@ -809,6 +810,7 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0; }
+
   #primary-nav .sub-nav > li {
     border-bottom: 1px solid #ccc; }
   #primary-nav .sub-nav a {
