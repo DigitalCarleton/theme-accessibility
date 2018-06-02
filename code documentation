@@ -1,7 +1,7 @@
 
 
 
-Assume as a standalone :- 
+
 
 Eq:- We made 3 changes , needs modification in 
 First problem:- there is no h1 level 
@@ -10,7 +10,9 @@ Default value - it will be nice to change the value for people
 So you need config, ini and how you do these
 What section fo codes whose the codes be entered
 
-Although Omeka has incorporated some of the accessibility features like ARIA Landmarks, skip to the content, it still needs significant improvements. Here, we identified three features where the theme needed modifications and made changes accordingly. 
+Although Omeka has incorporated some of the accessibility features like ARIA Landmarks, skip to the content, 
+it still needs significant improvements. Here, we identified three features where the theme needed modifications a
+nd made changes accordingly. 
 
 1. Header text for heading level 1 in homepage.
 Lack of a unique h1 makes the website less intuitive and more complex to navigate for screen readers. Hence, it is very important to add it. It would also be nice for users to change the h1 header text, however it should also have a default text in case the users do no input one.
